@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>UTF-8 Symbols</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="code-block-wrap">
+    <h1>Unicode Block</h1>
+    <input type="search" id="search" placeholder="search">
+    <div class="code-block"></div>
+</div>
+
+<div class="code-table">
+    <div class="code-range">
+        <input class="hex-label" type="text" value="0x" readonly><input type="text" id="start" value="20" min="0x0" max="0xffff">
+        -
+        <input class="hex-label" type="text" value="0x" readonly><input type="text" id="end" value="7E" min="0x0" max="0xffff">
+    </div>
+
+    <div class="table-container"><ul></ul></div>
+</div>
+<script type="text/javascript" src="jquery-1.12.1.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

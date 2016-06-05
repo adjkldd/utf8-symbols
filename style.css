@@ -1,0 +1,114 @@
+body {
+    font-size: 62.5%;
+}
+
+.code-block-wrap {
+    position: absolute;
+    height: 100%;
+    top: 4em;
+    right: 2%;
+    width: 14em;
+    text-align: center;
+}
+
+.code-block {
+    overflow: auto;
+    height: 100%;
+}
+
+.code-table {
+    width: 80%;
+}
+
+
+.code-block-wrap a {
+    display: block;
+    padding: 0.2em 1.2em;
+    text-decoration: none;
+    border-bottom: 1px dotted skyblue;
+    color: black;
+}
+
+a:hover {
+    border-left: 2px solid lawngreen;
+    border-right: 2px solid lawngreen;
+    background-color: deepskyblue;
+}
+
+
+
+.code-range {
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+#start {
+    width: 4em;
+    font-size: 2em;
+}
+
+#end {
+    width: 4em;
+    font-size: 2em;
+}
+
+.hex-label {
+    font-size: 2em;
+    width: 1.2em;
+    margin-right: 0;
+    border-right: 0;
+    background: black;
+}
+
+.code-range input {
+    background: #000;
+    color: white;
+}
+
+
+.table-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.table-container ul {
+    padding: 0;
+}
+
+.table-container li {
+    display: inline-block;
+    border: 1px solid beige;
+    padding: 0.2em 0.6em;
+}
+
+
+
+.table-container p {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+.table-container p.char {
+
+}
+
+#search {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#search:before {
+    content: 's';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+}
